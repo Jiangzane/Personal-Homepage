@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="一个现代、简洁、可直接上线的个人网站。"
+    />
+    <title>林屿 | 个人网站</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark">LY</span>
+        <span>林屿</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#work">作品</a>
+        <a href="#about">关于</a>
+        <a href="#notes">笔记</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换主题">
+        <span class="theme-icon" aria-hidden="true">☼</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero-workspace.png" alt="" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">设计 / 前端 / 独立创作</p>
+          <h1 id="hero-title">把复杂的想法，做成清晰、好用、有温度的产品。</h1>
+          <p class="hero-copy">
+            你好，我是林屿。关注数字产品设计、前端工程和内容表达，
+            喜欢把问题拆开、把体验磨顺、把作品交付到真实的人手里。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="mailto:hello@example.com">发送邮件</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="个人概览">
+        <article>
+          <strong>6+</strong>
+          <span>年产品与前端经验</span>
+        </article>
+        <article>
+          <strong>24</strong>
+          <span>个上线项目</span>
+        </article>
+        <article>
+          <strong>3</strong>
+          <span>个长期研究方向</span>
+        </article>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="work-title">最近作品</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Web App</span>
+              <span>2026</span>
+            </div>
+            <h3>个人知识库仪表盘</h3>
+            <p>
+              为创作者设计的笔记、灵感与项目进度管理工具，强调快速检索和低摩擦记录。
+            </p>
+            <a href="#contact" aria-label="了解个人知识库仪表盘">了解更多</a>
+          </article>
+          <article class="project-card accent">
+            <div class="project-topline">
+              <span>Brand</span>
+              <span>2025</span>
+            </div>
+            <h3>独立品牌视觉系统</h3>
+            <p>
+              从定位、色彩、字体到落地页面，建立一套稳定又有识别度的线上表达。
+            </p>
+            <a href="#contact" aria-label="了解独立品牌视觉系统">了解更多</a>
+          </article>
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Prototype</span>
+              <span>2025</span>
+            </div>
+            <h3>AI 写作协作原型</h3>
+            <p>
+              探索人机协作写作流程，把提示、版本、引用和审稿整合进同一工作台。
+            </p>
+            <a href="#contact" aria-label="了解 AI 写作协作原型">了解更多</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">我怎样工作</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            我相信好作品来自耐心的观察、清楚的判断和反复的细节打磨。
+            在项目里，我通常同时关注三件事：用户真正要完成什么，系统怎样保持可维护，
+            以及视觉语言是否能准确表达产品的性格。
+          </p>
+          <div class="skill-list" aria-label="技能列表">
+            <span>产品设计</span>
+            <span>前端开发</span>
+            <span>交互原型</span>
+            <span>内容策略</span>
+            <span>品牌表达</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="notes" aria-labelledby="notes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Notes</p>
+          <h2 id="notes-title">近期思考</h2>
+        </div>
+        <div class="notes-list">
+          <a href="#contact">
+            <span>01</span>
+            <strong>把作品集写成“决策记录”，而不只是成果陈列</strong>
+          </a>
+          <a href="#contact">
+            <span>02</span>
+            <strong>为什么小团队更需要设计系统，而不是更少设计</strong>
+          </a>
+          <a href="#contact">
+            <span>03</span>
+            <strong>AI 工具进入日常工作后，人的判断力变得更重要</strong>
+          </a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">有项目、合作或想法，欢迎聊聊。</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+          <a class="button secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 林屿</span>
+      <span>Built with care.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
