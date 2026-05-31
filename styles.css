@@ -198,8 +198,8 @@ main {
 }
 
 .hero-content {
-  max-width: 780px;
-  padding: clamp(44px, 8vw, 92px);
+  max-width: 700px;
+  padding: clamp(44px, 7vw, 84px);
   color: #fffaf0;
 }
 
@@ -223,11 +223,16 @@ p {
 }
 
 h1 {
-  max-width: 760px;
-  margin-bottom: 22px;
-  font-size: clamp(42px, 7vw, 82px);
-  line-height: 1.04;
+  max-width: 680px;
+  margin-bottom: 24px;
+  font-size: clamp(40px, 5.6vw, 68px);
+  line-height: 1.12;
   letter-spacing: 0;
+  text-wrap: balance;
+}
+
+h1 span {
+  display: block;
 }
 
 h2 {
@@ -244,11 +249,11 @@ h3 {
 }
 
 .hero-copy {
-  max-width: 640px;
+  max-width: 620px;
   margin-bottom: 30px;
   color: rgba(255, 250, 240, 0.86);
-  font-size: clamp(17px, 2vw, 21px);
-  line-height: 1.8;
+  font-size: clamp(17px, 1.45vw, 20px);
+  line-height: 1.85;
 }
 
 .button {
@@ -550,6 +555,7 @@ h3 {
   }
 
   .hero-content {
+    max-width: 640px;
     padding: 34px 24px 44px;
   }
 
@@ -597,7 +603,8 @@ h3 {
   }
 
   h1 {
-    font-size: 37px;
+    font-size: 36px;
+    line-height: 1.16;
   }
 
   .hero {
